@@ -18,9 +18,10 @@
 }
 .parallax-items .coda{
   top: 100px;
+  right: 200px;
 }
 .parallax-items .moose{
-  left: 100px;
+  right: 100px;
 }
 
 
@@ -33,3 +34,24 @@
   background-color: transparent;
 }
 
+/* MENU */
+.navbar .nav > li > .dropdown-menu:after{
+  left: 84px;
+}
+.navbar .nav > li > .dropdown-menu:before{
+  left: 81px;
+}
+.navbar-fixed-top{
+  top: -29px;
+  -webkit-transition: top 150ms ease-in 400ms; /* property duration timing-function delay */
+  -moz-transition: top 150ms ease-in 400ms;
+  -o-transition: top 150ms ease-in 400ms;
+  transition: top 150ms ease-in 400ms;
+}
+.navbar-fixed-top:hover{
+  top: 0;
+  -webkit-transition: top 100ms ease-in 50ms; /* property duration timing-function delay */
+  -moz-transition: top 100ms ease-in 50ms;
+  -o-transition: top 100ms ease-in 50ms;
+  transition: top 100ms ease-in 50ms;
+}
