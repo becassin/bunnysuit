@@ -1,0 +1,35 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+
+
+
+/* PARALLAX ITEMS */
+.parallax-items{
+  position: relative;
+}
+.parallax-items img{
+  width: 100px;
+  position: fixed;
+  opacity: 0.3;
+}
+.parallax-items .coda{
+  top: 100px;
+}
+.parallax-items .moose{
+  left: 100px;
+}
+
+
+
+/* LAYOUT */
+.container{
+  position: relative;
+}
+.container .hero-unit{
+  background-color: transparent;
+}
+
